@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InputMediaDocument, InputMediaPhoto, InputMediaVideo, InputMediaAudio
 import re
 
-app = Client("file_replace_bot", bot_token="")
+app = Client("file_replace_bot", bot_token="7382027995:AAGPq3UbIx8R-s0c4JRlp0645myyu7npxA0")
 
 # Handle /start command
 @app.on_message(filters.command("start"))
